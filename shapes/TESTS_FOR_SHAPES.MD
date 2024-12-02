@@ -77,7 +77,7 @@ new centre: x = 8.0; y = 8.0
 ``` cpp
 //на основе новых данных из прошлой функции
 
-Square square_clone = square.clone();
+Square& square_clone = square.clone();
 
 square_clone.getFrameRectangle(); // для проверки границ 
 
